@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 .aboutme-text {
  width: 1650px;
  background: #fdfff5;
@@ -46,8 +49,8 @@
   margin-left: 760px;
 }
 .school-text {
-  margin-left: 90px;
-  position: relative;
+  display: flex;
+  max-width: 1650px;
 }
 
 .hobbies-text {
@@ -104,3 +107,76 @@ box-sizing: border-box;
   color: black;
   margin-left: 20px;
 }
+.boxContainer{
+  display: flex;
+  justify-content: center;
+}
+.box1-c{
+  width: 700px;
+  background: #fff;
+  padding: 15px;
+  box-sizing: border-box;
+  min-height: 330px;
+}
+.box1-c p{
+  font-size: 21px;
+}
+.boxwrap h1{
+  font-size: 60px;
+  color: #fff;
+}
+.boxwrap{
+  background: #000;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+
+
+@media(max-width: 767px)
+{
+  .boxContainer{
+    display: block;
+  }
+  .box1-c{
+    width: 100%;
+  }
+}
+
+@media(min-width: 768px)
+{
+  .courseDesc{
+    line-height: 32px;
+  }
+  .skillsText{
+    line-height: 64px;
+  }
+  .boxContainer .boxwrap:first-child{
+    padding-left: 40px;
+  }
+  .boxContainer .boxwrap:last-child{
+    padding-right: 40px;
+  }
+  .secondboxContainer .boxwrap{
+    padding-bottom: 80px;
+  }
+  
+}
+
+@media (min-width: 768px) and (max-width: 1560px) {
+  .box1-c{
+    width: 500px;
+    min-height: 380px;
+  }
+  .music{
+    width: auto;
+  }
+  .skillsText {
+    line-height: 37px;
+}
+  .courseDesc {
+    line-height: 28px;
+}
+
+}
+

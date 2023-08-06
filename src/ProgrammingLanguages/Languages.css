@@ -1,5 +1,4 @@
 .languages-text {
-  width: 1650px;
   height: 1500px;
   margin-top: -150px;
   background: #fdfff5;
@@ -29,8 +28,11 @@
   background-color: black;
   border-radius: 400px;
   height: 700px;
-  width: 1650px;
   margin-top: 100px;
+  display: flex;
+  overflow: hidden;
+  margin-left: 100px;
+    margin-right: 100px;
 }
 
 .circlebox {
@@ -68,15 +70,17 @@
   line-height: 1.2;
   max-width: 1250px;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 .square {
   position: relative;
-width: 30%;
-height: 415px;
-border: 1px black;
-float: left;
-margin-top: 30px;
-padding: 15px;
+  width: 34%;
+  height: 430px;
+  border: 1px black;
+  float: left;
+  margin-top: 30px;
+  padding: 15px;
 }
 .square-img{
   height: 152px;
@@ -91,4 +95,49 @@ padding: 15px;
   box-sizing: border-box;
   margin-top: 15px;
   padding-top: 0;
+  padding-top: 8px;
+}
+@media(max-width: 767px)
+{
+  .languages-box{
+    display: block;
+    padding-bottom: 168px;
+  }
+  .squarebox{
+    display: block;
+  }
+  .square{
+    padding-left: 5px;
+  }
+  .languages-box{
+    padding-left: 25px;
+    padding-right: 15px;
+  }
+}
+@media(max-width: 1600px)
+{
+  .squarebox{
+    max-width: 1137px;
+  }
+  .square-details p{
+    font-size: 19px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .square-img {
+    height: 111px;
+    display: block;
+    margin: 0 auto;
+}
+.square {
+  height: 446px;
+}
+}
+
+@media(min-width: 768px) and (max-width: 1560px)
+{
+  .languages-box {
+    margin-left: 70px;
+    margin-right: 70px;
+  }
 }

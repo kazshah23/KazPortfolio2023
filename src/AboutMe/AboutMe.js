@@ -5,13 +5,12 @@ function AboutMe() {
   return (
     <div className='aboutme'>
       <Squiggle/>
-      <div className='aboutme-text'>
-        <div className='school'>
-          <div className='school-text'>
-            <div className='left'>
-              <h1 className='schoolheader'> Status</h1>
-              <div className='box1'> 
-              • Standing Junior at the University of 
+      <div className='boxContainer'>
+          <div className='boxwrap'>
+              <h1 className=''> Status</h1>
+              <div className='box1-c'> 
+               <p>
+               • Standing Junior at the University of 
                 <span style={{color: "orange"}}> Illinois </span> 
                 <span style={{color: "blue"}}> Urbana-Champaign </span>
                 <br/>
@@ -26,12 +25,15 @@ function AboutMe() {
                 <br/>
                 <br/>
                 • Achivements: Dean's List 2022
+               </p>
+             
               </div>
             </div>
-            <div className='right'>
-              <h1 className='schoolheader schoolheader2'> Courses</h1>
-              <div className='box2'>
-              • CS173 - Discrete Structures
+            <div className='boxwrap'>
+              <h1 className=''> Courses</h1>
+              <div className='box1-c'>
+                <p className='courseDesc'>
+                • CS173 - Discrete Structures
                 <br/>
                 • ECON302 - Microeconomic Theory 
                 <br/>
@@ -47,18 +49,18 @@ function AboutMe() {
                 <br/>
                 • ECON455 - Economics of Poverty Alleviation (R)
 
+                </p>
               </div>
             </div>
-            
-          </div>
-          <div className='school-text hobbies-text'>
-                <div className='left'>
-                    <h1 className='schoolheader'> Hobbies</h1>
-                    <div className='box1'>
+      </div>
+      <div className='boxContainer secondboxContainer'>
+          <div className='boxwrap'>
+            <h1> Hobbies</h1>
+                    <div className='box1-c'>
                       <div className='hobbies'>
                           <div className='music'>
                             <span className='hobbiesheader'> Music</span>
-                              <br/>
+                              <p>
                               • Jay-Z 
                               <br/>
                               • Kid Cudi
@@ -66,51 +68,55 @@ function AboutMe() {
                               • The Strokes
                               <br/>
                               • Coldplay
+                              </p>
                           </div>
                           <div className='music'>
                             <span className='hobbiesheader'> Video Games</span>
                             <br/>
-                            • Runescape
+                            <p>
+                              • Runescape
                               <br/>
                               • League of Legends
                               <br/>
                               • Smash Bros
                               <br/>
                               • Legend of Zelda
+                            </p>
                           </div>
                           <div className='music'>
                             <span className='hobbiesheader'> Sports Teams</span>
                               <br/>
-                              • Chicago Bulls
+                             <p>
+                             • Chicago Bulls
                               <br/>
                               • Chicago Bears
                               <br/>
                               • Dallas Mavericks
                               <br/>
                               • Tennesee Titans
+                             </p>
                           </div>
                         </div>
                     </div>
-                </div>
-                <div className='right'>
-                  <h1 className='schoolheader schoolheader2'> Skills</h1>
-                  <div className='box2'>
-                    <div className='skills'>
-                    • Leadership - Coordination of Work and Communication between all members
+          </div>
+          <div className='boxwrap'>
+              <h1> Skills</h1>
+                  <div className='box1-c'>
+                  <p className='skillsText'>
+                     • Leadership - Coordination of Work and Communication between all members
                       <br/>
                       • Adaptability - Immediate response to unexpected situations
                       <br/>
                       • Teamwork - Understanding my role and how to work with peers
                       <br/>
                       • Resourcefulness - Being able to find creative solutions to problems
-                    </div>
-
+                     </p>
 
                   </div>
-                </div>
             </div>
-        </div>
+
       </div>
+
     </div>
   );
 }

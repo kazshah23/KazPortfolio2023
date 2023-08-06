@@ -18,7 +18,7 @@ function languages() {
             <div className='square square1'>
               <img className='square-img' src = {cpp}></img>
               <div className='square-details'>
-                <br/>
+                <p>
                 • Coursework Experience of over two semesters where I created over 16 projects
                 <br/>
                 <br />
@@ -29,13 +29,14 @@ function languages() {
                 <br/>
                 <br/>
                 • Able to apply Computer System Features such as computation, memory, storage, pointers, and references
+                </p>
               </div>
             </div>
 
             <div className='square square2'>
                 <img className='square-img' src = {java}></img>
                 <div className='square-details'>
-                  <br /> 
+                  <p>
                   • Coursework Project of creating a full functioning Android app which sorted through all restaurants in the Urbana-Champaign area by different categories
                   <br /> 
                   <br /> 
@@ -46,14 +47,15 @@ function languages() {
                   <br /> 
                   <br /> 
                   • Proficiency with Java syntax and data types.
+                  </p>
                 </div>
             </div>
 
             <div className='square square3'>
                 <img className='square-img' src = {react}></img>
                 <div className='square-details'>
-                    <br /> 
-                • Created a full functioning personal website which incorporated advanced styling techniques such as Parallax, CSS Grids, Flexbox, and Animations.
+                   <p>
+                   • Created a full functioning personal website which incorporated advanced styling techniques such as Parallax, CSS Grids, Flexbox, and Animations.
                   <br /> 
                   <br /> 
                   • Experience with React, Redux, and React Router, Props, and State 
@@ -63,6 +65,7 @@ function languages() {
                   <br /> 
                   <br /> 
                   • Demonstrated ability to troubleshoot and debug issues related to React components
+                   </p>
                 </div>
             </div>
           </div>
@@ -75,23 +78,23 @@ function languages() {
             <div className='square square1'>
               <img className='square-img' src = {python}></img>
               <div className='square-details'>
-                    <br /> 
-                  • Coursework experience in a course titled 'Probability and Statistics in Computer Science'
+               <p>
+               • Coursework experience in a course titled 'Probability and Statistics in Computer Science'
                   <br /> 
                   <br /> 
                   • Basic understadning of language syntax and data types, as well as fundamental concepts such as control structures and object-oriented programming.
                   <br /> 
                   <br /> 
                   • Able to write and debug code in a Python environment, and comfortable working with and interpreting large datasets
-            
+               </p>
               </div>
             </div>
 
             <div className='square square2'>
              <img className='square-img' src = {r}></img>
               <div className='square-details'>
-                  <br /> 
-                • Coursework Project in a 400 level economics course. Worked with datasets regarding the impact on free Uber rides and how it affects transportation in popular cities.
+                 <p>
+                 • Coursework Project in a 400 level economics course. Worked with datasets regarding the impact on free Uber rides and how it affects transportation in popular cities.
                 <br /> 
                 <br /> 
                 • Worked with R libraries of dplyr, haven, and psych
@@ -101,6 +104,7 @@ function languages() {
                 <br /> 
                 <br /> 
                 • Performed regressions to understand the relationship between variables
+                 </p>
               </div>
             </div>
 
@@ -108,8 +112,8 @@ function languages() {
             <div className='square square3'>
               <img className='square-img' src = {javascript}></img>
               <div className='square-details'>
-                  <br /> 
-                • Worked with game development by programming a full functioning game similar to the popular game 'Jetpack Joyride' 
+                  <p>
+                  • Worked with game development by programming a full functioning game similar to the popular game 'Jetpack Joyride' 
                 <br /> 
                 <br /> 
                 • Proficiency in writing clean, scalable, and maintainable code
@@ -119,6 +123,7 @@ function languages() {
                 <br /> 
                 <br /> 
                 • Experience with popular libraries and frameworks such as React, Angular, and Vue.js
+                  </p>
               </div>
             </div>
 
