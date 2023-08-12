@@ -26,13 +26,13 @@ body{
 }
 .border1 {
   position: fixed;
-  height: 1000px;
+  height: 100%;
   width: 60px;
   background-color: black;
 }
 .border2 {
   position: fixed;
-  height: 1000px;
+  height: 100%;
   width: 60px;
   right: 0px;
   background-color: black;
